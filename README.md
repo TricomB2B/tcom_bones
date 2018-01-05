@@ -183,7 +183,7 @@ The Gulp workflow is designed around JavaScript and Sass capabilities. The bigge
 Most of the time while developing, you will have Gulp running in the background. You should launch Gulp via a terminal window, and just leave it running while you work. Here is how you would run the default task:
 
 ```sh
-$ cd /path/to/drupal/sites/all/themes/tricom
+$ cd /path/to/drupal/themes/custom/example
 $ gulp
 [14:02:48] Requiring external module babel-register
 [14:02:49] Using gulpfile ~/Projects/tricom-drupal-7-base/gulpfile.babel.js
