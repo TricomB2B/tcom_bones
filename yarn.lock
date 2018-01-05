@@ -805,9 +805,9 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-bourbon@5.0.0-beta.8:
-  version "5.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/bourbon/-/bourbon-5.0.0-beta.8.tgz#46981c3b072014367217b8074af1efc5b4c5df76"
+bourbon@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/bourbon/-/bourbon-5.0.0.tgz#030ba01893889cd77d964101e735d446fd50426a"
 
 brace-expansion@^1.0.0, brace-expansion@^1.1.7:
   version "1.1.8"
