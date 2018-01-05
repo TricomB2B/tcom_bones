@@ -1,0 +1,25 @@
+<?php
+/**
+ * THEME FUNCTIONS
+ */
+
+// return the URL to the given file (generally used for images in theme)
+function tricom_drupal_8_base_get_url ($path) {
+  return file_create_url(drupal_get_path('theme', 'tricom_drupal_8_theme') . '/' . $path);
+}
+
+// add a standard viewport meta tag to the head of every document
+// viewport meta tag is no longer required in drupal 8.
+// this function is here as an example as well as to act as a stub
+// for other page_attachments requirements
+function tricom_drupal_8_base_page_attachments (&$page) {
+  $viewport = array(
+    '#tag'        => 'meta',
+    '#attributes' => array(
+      'name'    => 'viewport',
+      'content' => 'width=device-width,initial-scale=1.0',
+    )
+  );
+
+  //$page['#attached']['html_head'][] = [$viewport, 'viewport'];
+}

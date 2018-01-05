@@ -157,6 +157,8 @@ You can include a `logo.svg` in the theme's root to act as a general logo you ca
 
 Drupal 8 themes do not require any templates to function. However you can create Twig templates as needed, and they must live under the `./templates` directory. For more information on auto-replacing core templates, see [Twig Template naming conventions](https://www.drupal.org/node/2354645).
 
+We've provided both `node.html.twig` and `page.html.twig` template files in our theme. However, these are just direct copies of the built-in templates. We've provided them for easy access to a commonly edit template, and just to provide examples of custom templating. They can be removed or modified as needed.
+
 #### CSS and JS
 
 All CSS and JS source code is under `./src`. We've provided little CSS or JS by default. Some very basic styling is provided, a CSS sanitizer/normalizer, and a few files that are more or less just there to get you hacking away. We have styled a few pieces of the Admin Toolbar which should prevent your other styles from modifying the admin toolbar's style.

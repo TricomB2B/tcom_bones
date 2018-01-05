@@ -1,0 +1,15 @@
+main:
+  version: 1.x
+  css:
+    theme:
+      css/main.css: { minified: false }
+  js:
+    js/main.js: { minified: false }
+
+main-min:
+  version: 1.x
+  css:
+    theme:
+      css/main.min.css: {}
+  js:
+    js/main.min.js: {}

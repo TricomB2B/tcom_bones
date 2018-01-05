@@ -1,0 +1,34 @@
+/**
+ * THEME COLORS
+ */
+$theme-admin-menu-primary-bg: #101010;
+$theme-admin-menu-secondary-bg: #45454A;
+$theme-admin-menu-font-color: #fafafa;
+
+/**
+ * COLOR MAP - light and dark gray are wireframes
+ */
+$colors: (
+  "white": #fff,
+  "black": #333333,
+  "red": #B30838,
+  "lightgray": #ddd,
+  "darkgray": #545454
+);
+
+/**
+ * FONT IMPORTS AND SETTINGS - all but admin font IES specific
+ */
+
+$admin-font: $font-stack-verdana;
+$body-font: "Lato";
+$header-font: "Lato";
+$button-font: "Open Sans Condensed", sans-serif;
+
+/**
+ * GLOBAL SETTINGS
+ */
+$breakpoints: (
+  desktop-bp: 1024px,
+  mobile-bp: 420px
+);

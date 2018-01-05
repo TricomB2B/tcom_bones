@@ -1,0 +1,28 @@
+.pill-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 4em;
+  border-radius: 20em;
+  background: color("black");
+  cursor: pointer;
+  transition: background 0.3s;
+
+  .copy {
+    color: color("white");
+    transition: color 0.3s;
+  }
+
+  @include media(">desktop-bp") {
+    width: 20em;
+  }
+}
+
+.no-touchevents .pill-box:hover {
+  background: color("red");
+
+  .copy {
+    color: color("black");
+  }
+}

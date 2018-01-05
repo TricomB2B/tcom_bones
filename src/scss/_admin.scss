@@ -1,0 +1,12 @@
+.toolbar {
+  .menu-item {
+    font-family: inherit !important;
+    font-size: inherit !important;
+  }
+
+  .toolbar-icon {
+    &:before {
+      box-sizing: content-box;
+    }
+  }
+}

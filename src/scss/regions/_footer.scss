@@ -1,0 +1,41 @@
+#footer {
+  margin-top: modular-scale(2);
+  background-color: black;
+  color: color("white");
+
+  .region {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: modular-scale(1) modular-scale(2);
+  }
+
+  .main-logo {
+    @include size(3em);
+  }
+
+  .block-menu {
+    h2 {
+      font-size: modular-scale(0);
+    }
+
+    .menu {
+      padding-left: modular-scale(1);
+    }
+
+    .leaf {
+      list-style: none;
+    }
+
+    li {
+      font-size: modular-scale(0);
+    }
+
+    a {
+      color: color("white");
+      text-decoration: none;
+    }
+  }
+}

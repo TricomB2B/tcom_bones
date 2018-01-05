@@ -1,0 +1,40 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 3em;
+  position: fixed;
+  padding: 0 2em;
+  background-color: black;
+
+  .main-logo {
+    @include size(2em);
+  }
+
+  .region {
+    display: flex;
+    align-items: center;
+  }
+
+  .block-menu {
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .leaf {
+        list-style: none;
+      }
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    li {
+      font-size: modular-scale(0);
+    }
+  }
+}

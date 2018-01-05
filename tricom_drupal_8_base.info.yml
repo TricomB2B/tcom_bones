@@ -1,0 +1,12 @@
+name: TriComB2B Base Theme
+type: theme
+description: "TriComB2B's base Drupal 8 starter theme. Hack away!"
+core: 8.x
+version: 8.x-1.0.0
+libraries:
+  - tricom_drupal_8_base/main-min
+base theme: stable
+regions:
+  header: Header
+  content: Content
+  footer: Footer
