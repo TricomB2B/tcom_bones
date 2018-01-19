@@ -1,5 +1,17 @@
-.region-content {
+.content {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+
+    main {
+        width: 100%;
+    }
+
+    .sidebar-left {
+        width: 25%;
+    }
+
+    .sidebar-right {
+        width: 25%;
+    }
 }

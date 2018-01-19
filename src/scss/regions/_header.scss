@@ -1,40 +1,27 @@
-#header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+header {
   width: 100%;
-  height: 3em;
-  position: fixed;
   padding: 0 2em;
-  background-color: black;
+  background-color: color("black");
+  color: color("white");
 
-  .main-logo {
-    @include size(2em);
-  }
-
-  .region {
+  div {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
   }
 
-  .block-menu {
-    .menu {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
+  h2 {
+    font-size: modular-scale(2);
+    color: color("white");
+  }
 
-      .leaf {
-        list-style: none;
-      }
-    }
+  /* FYI the center (tcom-bones) has to be changed based on the template name */
+  #block-tcom-bones-branding {
+    padding: 0 2em;
 
-    a {
-      color: white;
-      text-decoration: none;
-    }
-
-    li {
-      font-size: modular-scale(0);
+    img {
+      @include size(5em);
     }
   }
 }

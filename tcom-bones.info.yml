@@ -4,9 +4,13 @@ description: "TriComB2B's base Drupal 8 starter theme. Hack away!"
 core: 8.x
 version: 8.x-1.0.0
 libraries:
-  - tricom_drupal_8_base/main-min
+  - tcom-bones/main-min
 base theme: stable
 regions:
   header: Header
+  top_nowrap: Top NoWrap
+  sidebar_left: Left Sidebar
   content: Content
+  sidebar_right: Right Sidebar
+  bottom_nowrap: Bottom NoWrap
   footer: Footer
