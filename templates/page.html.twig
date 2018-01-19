@@ -45,54 +45,54 @@
  */
 #}
 <div id="page-wrapper">
-    <div id="page">
-        {# Header block, usually contains the logo, navigation, subnav/quick links, and search functionality #}
-        <header aria-label="{{ 'Site header'|t }}">
-            <div class="container">
-                {{ page.header }}
-            </div>
-        </header>
+  <div id="page">
+    {# Header block, usually contains the logo, navigation, subnav/quick links, and search functionality #}
+    <header aria-label="{{ 'Site header'|t }}">
+      <div class="container">
+        {{ page.header }}
+      </div>
+    </header>
 
-        {# Top No Wrap, contains a content container while still allowing some CSS to go full width #}
-        <div class="top-nowrap">
-            <div class="container">
-                {{ page.top_nowrap }}
-            </div>
-        </div>
-
-        {# Content, exists within the container #}
-        <div class="content container">
-            {# Left Sidebar, default width 25% #}
-            {%  if page.sidebar_left %}
-                <aside class="sidebar-left" id="sidebar-left">
-                    {{ page.sidebar_left }}
-                </aside>
-            {% endif %}
-
-            <main>
-                {{ page.content }}
-            </main>
-
-            {# Right Sidebar, default width 25% #}
-            {%  if page.sidebar_right %}
-                <aside class="sidebar-right" id="sidebar-right">
-                    {{ page.sidebar_right }}
-                </aside>
-            {% endif %}
-        </div>
-
-        {% if page.bottom_nowrap %}
-            <div class="bottom-nowrap">
-                <div class="container">
-                    {{ page.bottom_nowrap }}
-                </div>
-            </div>
-        {% endif %}
-
-        <footer>
-            <div class="container">
-                {{ page.footer }}
-            </div>
-        </footer>
+    {# Top No Wrap, contains a content container while still allowing some CSS to go full width #}
+    <div class="top-nowrap">
+      <div class="container">
+        {{ page.top_nowrap }}
+      </div>
     </div>
+
+    {# Content, exists within the container #}
+    <div class="content container">
+      {# Left Sidebar, default width 25% #}
+      {%  if page.sidebar_left %}
+        <aside class="sidebar-left" id="sidebar-left">
+          {{ page.sidebar_left }}
+        </aside>
+      {% endif %}
+
+      <main>
+        {{ page.content }}
+      </main>
+
+      {# Right Sidebar, default width 25% #}
+      {%  if page.sidebar_right %}
+        <aside class="sidebar-right" id="sidebar-right">
+          {{ page.sidebar_right }}
+        </aside>
+      {% endif %}
+    </div>
+
+    {% if page.bottom_nowrap %}
+      <div class="bottom-nowrap">
+        <div class="container">
+          {{ page.bottom_nowrap }}
+        </div>
+      </div>
+    {% endif %}
+
+    <footer>
+      <div class="container">
+        {{ page.footer }}
+      </div>
+    </footer>
+  </div>
 </div>
