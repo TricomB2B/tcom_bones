@@ -1,6 +1,6 @@
-name: TCom Bones Theme
+name: TriComB2B Bones Theme
 type: theme
-description: "TCom Bones Drupal 8 starter theme. Hack away!"
+description: "TriComB2B Bones Drupal 8 starter theme. Hack away!"
 core: 8.x
 version: 8.x-1.0.0
 libraries:
