@@ -29,6 +29,8 @@ $button-font: "Open Sans Condensed", sans-serif;
  * GLOBAL SETTINGS
  */
 $breakpoints: (
-  desktop-bp: 1024px,
-  mobile-bp: 420px
+  wide: 1300px,
+  large: 1024px,
+  medium: 768px,
+  small: 450px
 );
